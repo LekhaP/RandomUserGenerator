@@ -10,10 +10,28 @@
 		2056BFF41F0485E900F28030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056BFF31F0485E900F28030 /* AppDelegate.swift */; };
 		2056BFF61F0485E900F28030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056BFF51F0485E900F28030 /* ViewController.swift */; };
 		2056BFF91F0485E900F28030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2056BFF71F0485E900F28030 /* Main.storyboard */; };
-		2056BFFB1F0485E900F28030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2056BFFA1F0485E900F28030 /* Assets.xcassets */; };
 		2056BFFE1F0485E900F28030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2056BFFC1F0485E900F28030 /* LaunchScreen.storyboard */; };
 		2056C0091F0485E900F28030 /* RandomuserGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C0081F0485E900F28030 /* RandomuserGeneratorTests.swift */; };
 		2056C0141F0485E900F28030 /* RandomuserGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C0131F0485E900F28030 /* RandomuserGeneratorUITests.swift */; };
+		2056C03E1F04863F00F28030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0231F04863F00F28030 /* LaunchScreen.storyboard */; };
+		2056C03F1F04863F00F28030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0251F04863F00F28030 /* Main.storyboard */; };
+		2056C0401F04863F00F28030 /* RandomUserDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C0281F04863F00F28030 /* RandomUserDetailPageViewController.swift */; };
+		2056C0411F04863F00F28030 /* RandomUserListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C0291F04863F00F28030 /* RandomUserListingViewController.swift */; };
+		2056C0421F04863F00F28030 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C02B1F04863F00F28030 /* Constants.swift */; };
+		2056C0431F04863F00F28030 /* HSUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C02C1F04863F00F28030 /* HSUtilities.swift */; };
+		2056C0441F04863F00F28030 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C02E1F04863F00F28030 /* RandomUser.swift */; };
+		2056C0451F04863F00F28030 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0311F04863F00F28030 /* OFL.txt */; };
+		2056C0461F04863F00F28030 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0321F04863F00F28030 /* Raleway-Bold.ttf */; };
+		2056C0471F04863F00F28030 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0331F04863F00F28030 /* Raleway-ExtraBold.ttf */; };
+		2056C0481F04863F00F28030 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0341F04863F00F28030 /* Raleway-ExtraLight.ttf */; };
+		2056C0491F04863F00F28030 /* Raleway-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0351F04863F00F28030 /* Raleway-Heavy.ttf */; };
+		2056C04A1F04863F00F28030 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0361F04863F00F28030 /* Raleway-Light.ttf */; };
+		2056C04B1F04863F00F28030 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0371F04863F00F28030 /* Raleway-Medium.ttf */; };
+		2056C04C1F04863F00F28030 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0381F04863F00F28030 /* Raleway-Regular.ttf */; };
+		2056C04D1F04863F00F28030 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0391F04863F00F28030 /* Raleway-SemiBold.ttf */; };
+		2056C04E1F04863F00F28030 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2056C03A1F04863F00F28030 /* Raleway-Thin.ttf */; };
+		2056C04F1F04863F00F28030 /* RandomUserListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056C03C1F04863F00F28030 /* RandomUserListingCell.swift */; };
+		2056C0511F04866600F28030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2056C0501F04866600F28030 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,6 @@
 		2056BFF31F0485E900F28030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2056BFF51F0485E900F28030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2056BFF81F0485E900F28030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2056BFFA1F0485E900F28030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2056BFFD1F0485E900F28030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2056BFFF1F0485E900F28030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2056C0041F0485E900F28030 /* RandomuserGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomuserGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +64,25 @@
 		2056C00F1F0485E900F28030 /* RandomuserGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomuserGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2056C0131F0485E900F28030 /* RandomuserGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserGeneratorUITests.swift; sourceTree = "<group>"; };
 		2056C0151F0485E900F28030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2056C0241F04863F00F28030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2056C0261F04863F00F28030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		2056C0281F04863F00F28030 /* RandomUserDetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserDetailPageViewController.swift; sourceTree = "<group>"; };
+		2056C0291F04863F00F28030 /* RandomUserListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserListingViewController.swift; sourceTree = "<group>"; };
+		2056C02B1F04863F00F28030 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2056C02C1F04863F00F28030 /* HSUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSUtilities.swift; sourceTree = "<group>"; };
+		2056C02E1F04863F00F28030 /* RandomUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		2056C0311F04863F00F28030 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2056C0321F04863F00F28030 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		2056C0331F04863F00F28030 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2056C0341F04863F00F28030 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2056C0351F04863F00F28030 /* Raleway-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Heavy.ttf"; sourceTree = "<group>"; };
+		2056C0361F04863F00F28030 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		2056C0371F04863F00F28030 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		2056C0381F04863F00F28030 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		2056C0391F04863F00F28030 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		2056C03A1F04863F00F28030 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		2056C03C1F04863F00F28030 /* RandomUserListingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUserListingCell.swift; sourceTree = "<group>"; };
+		2056C0501F04866600F28030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +133,16 @@
 		2056BFF21F0485E900F28030 /* RandomuserGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				2056C0501F04866600F28030 /* Assets.xcassets */,
+				2056C0221F04863F00F28030 /* Base.lproj */,
+				2056C0271F04863F00F28030 /* Controller */,
+				2056C02A1F04863F00F28030 /* Helpers */,
+				2056C02D1F04863F00F28030 /* Model */,
+				2056C02F1F04863F00F28030 /* Resources */,
+				2056C03B1F04863F00F28030 /* View */,
 				2056BFF31F0485E900F28030 /* AppDelegate.swift */,
 				2056BFF51F0485E900F28030 /* ViewController.swift */,
 				2056BFF71F0485E900F28030 /* Main.storyboard */,
-				2056BFFA1F0485E900F28030 /* Assets.xcassets */,
 				2056BFFC1F0485E900F28030 /* LaunchScreen.storyboard */,
 				2056BFFF1F0485E900F28030 /* Info.plist */,
 			);
@@ -123,6 +165,74 @@
 				2056C0151F0485E900F28030 /* Info.plist */,
 			);
 			path = RandomuserGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		2056C0221F04863F00F28030 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2056C0231F04863F00F28030 /* LaunchScreen.storyboard */,
+				2056C0251F04863F00F28030 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		2056C0271F04863F00F28030 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2056C0281F04863F00F28030 /* RandomUserDetailPageViewController.swift */,
+				2056C0291F04863F00F28030 /* RandomUserListingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2056C02A1F04863F00F28030 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2056C02B1F04863F00F28030 /* Constants.swift */,
+				2056C02C1F04863F00F28030 /* HSUtilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2056C02D1F04863F00F28030 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2056C02E1F04863F00F28030 /* RandomUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2056C02F1F04863F00F28030 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2056C0301F04863F00F28030 /* raleway */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2056C0301F04863F00F28030 /* raleway */ = {
+			isa = PBXGroup;
+			children = (
+				2056C0311F04863F00F28030 /* OFL.txt */,
+				2056C0321F04863F00F28030 /* Raleway-Bold.ttf */,
+				2056C0331F04863F00F28030 /* Raleway-ExtraBold.ttf */,
+				2056C0341F04863F00F28030 /* Raleway-ExtraLight.ttf */,
+				2056C0351F04863F00F28030 /* Raleway-Heavy.ttf */,
+				2056C0361F04863F00F28030 /* Raleway-Light.ttf */,
+				2056C0371F04863F00F28030 /* Raleway-Medium.ttf */,
+				2056C0381F04863F00F28030 /* Raleway-Regular.ttf */,
+				2056C0391F04863F00F28030 /* Raleway-SemiBold.ttf */,
+				2056C03A1F04863F00F28030 /* Raleway-Thin.ttf */,
+			);
+			path = raleway;
+			sourceTree = "<group>";
+		};
+		2056C03B1F04863F00F28030 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2056C03C1F04863F00F28030 /* RandomUserListingCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +342,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2056C0491F04863F00F28030 /* Raleway-Heavy.ttf in Resources */,
+				2056C04E1F04863F00F28030 /* Raleway-Thin.ttf in Resources */,
+				2056C04B1F04863F00F28030 /* Raleway-Medium.ttf in Resources */,
+				2056C0451F04863F00F28030 /* OFL.txt in Resources */,
+				2056C0511F04866600F28030 /* Assets.xcassets in Resources */,
+				2056C04C1F04863F00F28030 /* Raleway-Regular.ttf in Resources */,
 				2056BFFE1F0485E900F28030 /* LaunchScreen.storyboard in Resources */,
-				2056BFFB1F0485E900F28030 /* Assets.xcassets in Resources */,
+				2056C04A1F04863F00F28030 /* Raleway-Light.ttf in Resources */,
+				2056C0481F04863F00F28030 /* Raleway-ExtraLight.ttf in Resources */,
+				2056C04D1F04863F00F28030 /* Raleway-SemiBold.ttf in Resources */,
+				2056C03F1F04863F00F28030 /* Main.storyboard in Resources */,
+				2056C03E1F04863F00F28030 /* LaunchScreen.storyboard in Resources */,
+				2056C0471F04863F00F28030 /* Raleway-ExtraBold.ttf in Resources */,
 				2056BFF91F0485E900F28030 /* Main.storyboard in Resources */,
+				2056C0461F04863F00F28030 /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +381,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2056C04F1F04863F00F28030 /* RandomUserListingCell.swift in Sources */,
+				2056C0441F04863F00F28030 /* RandomUser.swift in Sources */,
+				2056C0421F04863F00F28030 /* Constants.swift in Sources */,
 				2056BFF61F0485E900F28030 /* ViewController.swift in Sources */,
+				2056C0411F04863F00F28030 /* RandomUserListingViewController.swift in Sources */,
+				2056C0431F04863F00F28030 /* HSUtilities.swift in Sources */,
 				2056BFF41F0485E900F28030 /* AppDelegate.swift in Sources */,
+				2056C0401F04863F00F28030 /* RandomUserDetailPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +438,22 @@
 				2056BFFD1F0485E900F28030 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2056C0231F04863F00F28030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2056C0241F04863F00F28030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2056C0251F04863F00F28030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2056C0261F04863F00F28030 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
